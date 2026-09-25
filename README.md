@@ -1,6 +1,9 @@
-# GDELT Knowledge Graph RAG Assistant
+# GDELT Knowledge Graph RAG Assistant UI
 
-An interactive Next.js frontend for exploring and explaining the [`gdelt-knowledge-base`](https://github.com/aie8-cert-challenge/gdelt-knowledge-base) project. Query GDELT documentation with AI-powered retrieval, explore evaluation metrics, analyze datasets, and understand the multi-layer RAG architecture.
+> **Author & Frontend Architect:** [Don Branson](https://github.com/donbr)  
+> **Production Deployment:** [gdelt-ui-demo.vercel.app](https://gdelt-ui-demo.vercel.app) • Reference UI for [`donbr/gdelt-knowledge-base`](https://github.com/donbr/gdelt-knowledge-base)
+
+An interactive Next.js frontend for exploring and explaining the [`donbr/gdelt-knowledge-base`](https://github.com/donbr/gdelt-knowledge-base) project. Query GDELT documentation with AI-powered retrieval, explore evaluation metrics, analyze datasets, and understand the multi-layer RAG architecture.
 
 ## 🎯 Features
 
@@ -52,7 +55,7 @@ An interactive Next.js frontend for exploring and explaining the [`gdelt-knowled
 
 ### Backend Requirements (for full functionality)
 - **Python** 3.11+
-- **[`gdelt-knowledge-base`](https://github.com/aie8-cert-challenge/gdelt-knowledge-base)** repository cloned as sibling directory
+- **[`gdelt-knowledge-base`](https://github.com/donbr/gdelt-knowledge-base)** repository cloned as sibling directory
 - **LangGraph Server** running on port 2024
 - **OpenAI API Key** (required for queries)
 - **Cohere API Key** (optional, for reranking)
@@ -231,7 +234,7 @@ For the query console to work, you need the LangGraph Server running:
 ```bash
 # Clone the backend repository (sibling directory)
 cd ..
-git clone https://github.com/aie8-cert-challenge/gdelt-knowledge-base.git
+git clone https://github.com/donbr/gdelt-knowledge-base.git
 cd gdelt-knowledge-base
 
 # Configure backend environment (see backend README)
